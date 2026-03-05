@@ -1,0 +1,6 @@
+yt-dlp
+opencv-python
+webrtcvad-wheels
+numpy
+PyYAML
+colorama

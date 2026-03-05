@@ -1,0 +1,15 @@
+# Python 
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Project Specific
+vault_output/
+temp_audio.wav
+*.mp4
+*.json
+
+# VS Code
+.vscode/

@@ -1,0 +1,25 @@
+# VisionVault Global Configuration
+
+# 📁 Storage Paths
+paths:
+  output_dir: "vault_output"
+  raw_dir: "vault_output/raw_videos"
+  clips_dir: "vault_output/clips"
+
+# 🎯 Detection Thresholds
+vision:
+  min_face_area: 0.04 # Close-ups only
+  blur_threshold: 35 # Reject blurry frames
+  strict_single_face: true # No groups
+  entropy_threshold: 0.5 # Anti-static photo check
+
+audio:
+  sample_rate: 32000
+  min_speech_ratio: 0.4
+  vad_mode: 3 # 0-3 (3 is most aggressive)
+
+# ✂️ Default Timestamps (Can be overridden by CLI)
+timing:
+  clip_duration: 5.0
+  intro_skip: 10.0
+  end_skip: 20.0
