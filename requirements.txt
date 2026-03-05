@@ -1,6 +1,6 @@
-yt-dlp
-opencv-python
-webrtcvad-wheels
-numpy
-PyYAML
-colorama
+yt-dlp==2023.12.30
+opencv-python==4.9.0.80
+webrtcvad-wheels==2.0.11.post1
+numpy==1.26.4
+PyYAML==6.0.1
+colorama==0.4.6
